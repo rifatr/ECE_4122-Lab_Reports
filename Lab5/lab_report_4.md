@@ -1,5 +1,5 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
+<!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script> -->
 
 **Experiment No:** 05
 
@@ -12,6 +12,7 @@
 Correlation is a statistical measure that indicates the extent to which two or more variables fluctuate together. A positive correlation indicates the extent to which those variables increase or decrease in parallel; a negative correlation indicates the extent to which one variable increases as the other decreases. Correlation coefficients are expressed as values between -1 and 1. A coefficient of 1 indicates a perfect positive correlation. A coefficient of -1 indicates a perfect negative correlation. A coefficient of 0 indicates that there is no relationship between the different variables. In this experiment, we have studied about auto correlation and cross correlation. Auto correlation is the correlation of a signal with itself. Cross correlation is the correlation of two different signals. 
 </div>
 
+\
 **Code of Auto Correlation:**
 ```m
 t = -10:1:10;
@@ -47,6 +48,7 @@ end
 
 <!-- <div class="page"/> -->
 
+\
 **Discussion:**
 <div style="text-align: justify">
 In this experiment, we have found the delay of a signal by cross correlation. We have taken two signals and found the cross correlation of them. Then we have found the maximum value of the cross correlation. The index of the maximum value is the delay of the signal. We have found the delay of the signal is 1. 
