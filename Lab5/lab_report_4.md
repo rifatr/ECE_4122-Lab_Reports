@@ -13,7 +13,7 @@ Correlation is a statistical measure that indicates the extent to which two or m
 </div>
 
 \
-**Code of Auto Correlation:**
+**Code:**
 ```m
 t = -10:1:10;
 x1 = (t >= -2 & t < 4);
