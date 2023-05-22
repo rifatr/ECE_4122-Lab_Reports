@@ -10,16 +10,16 @@
 1. Auto Correlation
 2. Cross Correlation
 
+<div style="text-align: justify">
+
 **Theory:**
-<div style="text-align: justify"> 
-Auto Correlation: The auto correlation of a signal is the correlation of a signal with itself. It is a mathematical tool for finding repeating patterns, such as the presence of a periodic signal which has been buried under noise, or identifying the missing fundamental frequency in a signal implied by its harmonic frequencies. It is often used in signal processing for analyzing functions or series of values, such as time domain signals.
+ 
+**Auto Correlation:** The auto correlation of a signal is the correlation of a signal with itself. It is a mathematical tool for finding repeating patterns, such as the presence of a periodic signal which has been buried under noise, or identifying the missing fundamental frequency in a signal implied by its harmonic frequencies. It is often used in signal processing for analyzing functions or series of values, such as time domain signals.
+
+**Cross Correlation:** Cross correlation is a measure of similarity of two waveforms as a function of a time-lag applied to one of them. This is also known as a sliding dot product or sliding inner-product. It is commonly used for searching a long signal for a shorter, known feature. It has applications in pattern recognition, single particle analysis, electron tomography, averaging, cryptanalysis, and neurophysiology.
 </div>
 
-
-<div style="text-align: justify"> 
-Cross Correlation: Cross correlation is a measure of similarity of two waveforms as a function of a time-lag applied to one of them. This is also known as a sliding dot product or sliding inner-product. It is commonly used for searching a long signal for a shorter, known feature. It has applications in pattern recognition, single particle analysis, electron tomography, averaging, cryptanalysis, and neurophysiology.
-</div>
-
+\
 **Code of Auto Correlation:**
 ```m
 size = input('size of x = ');
@@ -61,9 +61,10 @@ x = [1 3 2]
 ![output1](auto.png)
 
 <center> Fig. 1: Output of auto correlation of a signal. </center>
+<!-- 
+<div class="page"/> -->
 
-<div class="page"/>
-
+\
 **Code of Cross Correlation:**
 ```m
 size = input('size of x = ');
@@ -100,7 +101,7 @@ subplot(2, 2, 3); stem(r); title('R[n]');
 subplot(2, 2, 4); stem(rfun); title('R[n] from function');
 ```
 
-<div class="page"/>
+<!-- <div class="page"/> -->
 
 **Input:**
 ```
@@ -116,6 +117,7 @@ y = [2 4 5 2 3 3]
 
 <center> Fig. 2: Output of cross correlation of two signals. </center>
 
+\
 **Discussion:**
 <div style="text-align: justify">
 In this experiment, we have studied about auto correlation and cross correlation. We have implemented the algorithm of auto correlation and cross correlation in MATLAB. We have plotted the input signals and the output signals. We have seen that the output of auto correlation is symmetric and the output of cross correlation is not symmetric. We have also seen that the output of auto correlation and cross correlation from our algorithm and the inbuilt function of MATLAB are same.

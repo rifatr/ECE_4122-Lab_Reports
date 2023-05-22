@@ -13,6 +13,7 @@ Study of convolution of two signals using matlab.
 
 Convolution is a mathematical operation on two functions (f and g) to produce a third function that expresses how the shape of one is modified by the other. The term convolution refers to both the result function and to the process of computing it. It is defined as the integral of the product of the two functions after one is reversed and shifted. The integral is evaluated for all values of shift, producing the convolution function.
 
+\
 **Code:**
 ```m
 xsize = input('size of x = ');
@@ -50,7 +51,6 @@ subplot(2, 2, 4); stem(y, 'marker', 'o');
 title('Convulation Y(n)');
 ```
 
-\
 **Output:**
 
 ![output1](dsp_lab2_2.png)
@@ -59,6 +59,7 @@ title('Convulation Y(n)');
 
 <!-- <div style="text-align: justify"> -->
 
+\
 **Discussion:**
 
 In this experiment, we have studied the convolution of two signals using matlab. We have taken two signals x and h and convolved them to get the output signal y. We have also plotted the graph of the signals x, h, y and the convulation function. The output of the program is shown in Fig. 1.
