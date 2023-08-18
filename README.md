@@ -11,6 +11,7 @@
 | 03 | Circular Convolution, Plotting two given signals, their summation and subtraction and Drawing two given signals in one figure | [Lab Report 2](/Lab3/lr2.md) |
 | 04 | Study of Auto Correlation and Cross Correlation | [Lab Report 3](/Lab4/lr3.md) |
 | 05 | Finding delay of signal by correlation | [Lab Report 4](/Lab5/lr4.md) |
+| 06 | Study of Causal, Non-causal and Anti causal Signals | [Lab Report 5](/Lab6/lr4.md) |
 
 \
 **Submitted By -**\
