@@ -22,7 +22,7 @@ A signal is said to be anti-causal if it is zero for positive time.
 ```matlab
 clc
 x = [2 3 4 5 3];
-syms p
+y = sym('y');
 
 Causal = 0;
 for i=1:length(x)
